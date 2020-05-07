@@ -33,5 +33,5 @@ jobs:
         # Set the sonar.projectBaseDir analysis property
         projectBaseDir: # optional, default is .
       env:
-        # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
