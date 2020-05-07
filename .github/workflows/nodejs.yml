@@ -32,6 +32,8 @@ jobs:
       with:
         # Set the sonar.projectBaseDir analysis property
         projectBaseDir: # optional, default is .
+        sonar.projectKey: vxavictor513_hackernews-react-graphql
+        sonar.organization: vxavictor513
       env:
         # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
